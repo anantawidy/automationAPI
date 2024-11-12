@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite">
+    <test name="API Test">
+        <classes>
+            <class name="autoAPI.positifScenario"/>
+            <class name="autoAPI.negatifScenario"/>
+            <class name="autoAPI.edgeScenario"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
